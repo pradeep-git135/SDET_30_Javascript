@@ -14,7 +14,7 @@
 	2] assemblers
 	3] interpreters
 
-# Usees:
+# Uses:
 	*] it is mainly used for client side validation(component validation)
 	*] it is used to develop interactive/ dynamic web applications
 	*] it can can be used in client side, server side and even in database so it is used in fullstack
@@ -33,12 +33,51 @@ Javascript Engine:
 
 #] execution of javascript code:
 	1] on browser
-	2] off browser(server  nodeJs)
+			embedding javascript in html:
+					1] inline embed  [<script></script>]
 
+					2] external embed [<script src="file/path/javascript "></script>]
+	2] off browser(server  nodeJs):
+				node <file/path>
 
+#] Tokens:
+	smallest unit of code is called tokens
+		1] keywords :
+				keyword are predefined words with predefined meaning in it (developers had defined already)
+				35 keywords in javascript
+				keywords are case sensitive (all the keyword are in lower case)
+				e.g. var, let, const, if, else, for, while, do while ....
 
+		2] identifiers: 
+				user defined words/ named memory used to store the value
+				you can not use any keyword as an identifier
+				identifier should not start with numeric but it can be alphanumeric
+				we should not use special charecter in identifiers expect _ and $
+		3] literals:
+				values that we store inside an identifier
+		4] operaters:
+				are used to perform action on operands 
+				arithmatic operaters
+				relational operaters
+				logical operaters
+				comparison operaters
+		5] separeters:
+				e.g  (), {}, [], ;, :
+		
+#] how to declare a veriable in javascript:
+	var a;  //declaration        ===> var a = 100;  // declaration and iniztialization
+	a = 100; // initialization
+	log(a); // utilization
 
+#] datatypes:
+	1) premitive:
+			number, string, boolean, undefined, null
+	2) non premitive:
+			array, object, functions....
 
+#] flow control statements:
+	1] conditional statements [if, else, if_else, switch]
+	2] looping statements[for, while, do_while]
 
 
 
