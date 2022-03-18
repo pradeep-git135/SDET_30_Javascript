@@ -1,0 +1,45 @@
+# installations: 
+	* platform : NodeJs
+	* IDE: vs_code 
+
+
+# Javascript : 
+	*] it is an intrpreted programming as well as scripting language
+	*] javascript is case sensitive 
+	*] javascript is a dynamically typed language
+
+# Translaters	: 
+	used to convert language from one form to other and based on the mechanism we have 3 different types of translaters
+	1] compilers
+	2] assemblers
+	3] interpreters
+
+# Usees:
+	*] it is mainly used for client side validation(component validation)
+	*] it is used to develop interactive/ dynamic web applications
+	*] it can can be used in client side, server side and even in database so it is used in fullstack
+	
+# Libraries built by using Javascript:
+	JQuery, Load#, Bootstrap, _js etc...
+
+# Frameworks built by using Javascript:
+	NodeJS, ReactJS, ReactNative, AngularJs, ElectronJs, Tensorflow  etc...
+	
+Javascript Engine:
+	chrome browser ===> v8
+	mozillay firefox ===> spider monkey
+	ie      ===> chakra
+	safari ===> jscore
+
+#] execution of javascript code:
+	1] on browser
+	2] off browser(server  nodeJs)
+
+
+
+
+
+
+
+
+
