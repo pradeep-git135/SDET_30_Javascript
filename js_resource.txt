@@ -126,8 +126,7 @@ e.g. 	function ecommerce(status) {
 	* Then the entire code reaches the execution phase 
 	* In execution phase undefined will get overided with  actual values and line by line code will execute
 
-
-
+# veriable and function hoisting:
 
 
 
