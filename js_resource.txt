@@ -79,6 +79,59 @@ Javascript Engine:
 	1] conditional statements [if, else, if_else, switch]
 	2] looping statements[for, while, do_while]
 
+#] functions:
+		block of coed which perform a specific task, and it can reuseable
+	1] standard function/ function declaration:
+			syntax: 
+					function name_of_function () { // statements}
+			invocation:
+					name_of_function ()
+	2] function expression :
+			syntax: 
+					var name_of_functionn = function  () { // statements}
+			invocation:
+					name_of_function()
+	3] IIf==> immediatly invocable function:
+			syntax: 
+					(function  (params) { // statements})(params)
+	4]arrow function : 
+			syntax:
+					() => {}
+
+# callback functions:
+	passing function or function as a parameter to another function and invocking in it is called 
+
+e.g. 	function ecommerce(status) {
+    		if (status() == "paymentSuccessful") {
+        		console.log("product booked successfully");
+    		} else {
+        		console.log("insufficient balence");
+    		}
+    
+		}
+		//passing entire function as a parameter
+		ecommerce(function paymentStatus() {
+   			 return "23r3paymentSuccessful"
+		})
+		//passing function reference as a parameter
+			ecommerce(paymentStatus)
+	
+#programm execution in memory:
+	* whenever you execute javascript code, a global execution context will be created 
+	* In global execution context a global object will be created named window
+	* Along with window_Object global veriable will be created called this
+	* in the global levell window === this
+	* Then 2 phases will be created 1] creation phase 2] execution phase 
+	* In creation phase memory will be created for the entire code and dummy value (undefinde) will be assigned for all the veriables 
+	* Then the entire code reaches the execution phase 
+	* In execution phase undefined will get overided with  actual values and line by line code will execute
+
+
+
+
+
+
+
 
 
 
