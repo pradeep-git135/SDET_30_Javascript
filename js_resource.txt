@@ -126,8 +126,26 @@ e.g. 	function ecommerce(status) {
 	* Then the entire code reaches the execution phase 
 	* In execution phase undefined will get overided with  actual values and line by line code will execute
 
+#function execution in memory:
+
 # veriable and function hoisting:
 
+# closure property :
+	function along with it's lexical environment togeather forms a closure
+	inner function still having an access on the veriable that had been declared in the outer function even after the 
+	execution of outer function is also called closure
+
+#objecta:
+	any entity having state and behavior or properties and values
+	in javascript object consist of proprties and values(value can be of any datatype), property-value are separated by (:)
+ 	and properties-values pair are separated by (,) 
+
+different ways of declaring an object:
+	1] object_literal syntax
+	2] new Object keyword
+	3] constructor function
+	4] object.create() method	
+	5] class
 
 
 
