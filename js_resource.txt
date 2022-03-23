@@ -141,11 +141,59 @@ e.g. 	function ecommerce(status) {
  	and properties-values pair are separated by (,) 
 
 different ways of declaring an object:
-	1] object_literal syntax
-	2] new Object keyword
-	3] constructor function
-	4] object.create() method	
-	5] class
+	1] object_literal syntax:
+				var obj_ref = {prop : value, prop:value}
+	2] new Object keyword:
+				var obj_ref = new Object()
+				obj_ref.prop = value
+				obj_ref.prop2 = value2
+	3] constructor function:
+				function ref_name (prop1, prop2, prop3...) {
+					this.prop1 = peop1
+					this.prop2 = peop2
+					this.prop3 = prop3
+				}
+				var obj_ref = new ref_name(value1, value2, value3...)
+	4] object.create() method:[es6 feature]
+			var obj_ref = Object.create(ref_obj)
+		* object.create() method always creates an empty object with prototype as inheritted object
+
+		__Proto__ is used to inherit the properties of one object to the other
+	
+	5] class:[es6 feature]:
+			class ref_name {
+				constructor(prop1, prop2, prop3...){
+					this.prop1 = prop1
+					this.prop2 = prop2
+					this.prop3 = prop3
+				}
+			}
+			var instance = new ref_name(value1, value2, value3)
+
+# this keyword:
+	the value of this keyword depends on the scope where you have used
+
+# inbuilt methods:
+			these inbuilt methods will accept object_reference as a mandatory parameter and as well as other parameters and it can be used  only along with the functions, using these inbuilt
+			methods one can set the value for this keyword
+	1] call():
+			call(obj_ref, data1, data2.....) sets the value of this keyword and executes the given function
+			we can achive function barrowing through call()[deriving function from one object to other]
+	2] bind():
+			bind(obj_ref, data1, data2.....) creates separate copy of the given function and sets the value of this keyword and returns the copy of the function
+	3] apply(): 
+			it is completly similer to call method but while passing non madetory parameters we should use array
+
+# BOM:[Browser Object Model]
+
+# DOM:[Document Object Model]
+
+# predefined Objects:[array, string, date, math]
+	#Array:
+		methods:
+			array.concat(number[])==>Combines two or more arrays. This method returns a new array without modifying any existing arrays 
+
+# ES6 features:
 
 
 
