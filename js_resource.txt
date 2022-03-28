@@ -191,9 +191,95 @@ different ways of declaring an object:
 # predefined Objects:[array, string, date, math]
 	#Array:
 		methods:
-			array.concat(number[])==>Combines two or more arrays. This method returns a new array without modifying any existing arrays 
 
-# ES6 features:
+			array.concat(number[])
+					==>Combines two or more arrays. This method returns a new array without modifying any existing arrays)
+
+			array.push(elements)
+					===> it will add the given elements the end of an array and returns the length of an array, it will modify the existing array
+
+			array.pop()
+					 ====> it will remove the last element from the array and returns the removed element, it will modify the existing array
+
+			array.unshift(elements)
+					 ===> it will add the elements to the begining of an array and returns the length of an array, it will modify the existing array
+
+			array.shift()
+					 ====> it will remove the first element from the array and returns the removed element, it will modify the existing array
+
+			array.splice(startIndex, deleteCount, new_elements)
+					===> it will delete and as well as adds the given elements to the specific index of an array and returns the deleted elements in the form of array,it will modify the existing array, 
+
+			array.slice(stratIndex, endIndex)
+					===> it will return the fragment of an array based on then specified index and endIndex will be excluded, retuns the fragment in the form of array
+
+			array.every(()=>{})
+					===> it will return boolean result based on the condition stisfied by all the elements of an array i.e, returns true only if all elements satisfies the given condition
+
+			array.some(()=>{})
+					===> it will return boolean result based on the condition stisfied by any one of the the element of an array i.e, returns true if any of  element satisfies the given condition
+
+			array.indexOf(searchElement, startPosition)
+					===> it will return the index value of search element, travesing is from left ===> right
+
+			array.lastIndexOf(searchElement, startPosition)
+					===> it will return the index value of search element, travesing is from right ===> left 
+
+			array.reverse()
+					===> it will return the array in reverse order, it modifies the existing array
+
+			array.includes(searchElement)
+					===> it will return the boolean result based on searchElement presence
+
+			array.join(join_charecter)
+					===> it will the elements of an array based on the charecter specified and returns the string
+
+			array.forEach(()=>{// task})
+					===> it will perform the task given in the callback function and returns void, implemented by map method of an array, but it will not modify the existing array
+
+			array.map(()=>{//modify statements})
+					===> it will return the modified form of an array and implemented by filter method of an array, but it will not modify the existing array
+
+			array.filter(()=>{//filter ondition})
+					===> it will return the array based on filter condition i.e, it will return the elements in the form of array that only satifies the given filter condidtion, it will not modify the existing array
+
+			array.sort(()=>{//compare function})
+					===> it will sort the array in ascending_order(return a-b)/descending_order(return b-a) based on retun specified in compare function
+
+			array.reduse((previousValue, currentValue)=>{})
+					===> it will reduse the entire array into a single unit / to the required form(array, object, number)
+
+			array.reduseRight((previousValue, currentValue)=>{})
+					===> |||er to reduse method but traversing is from right===>left
+#String : 
+	str.length
+methods:
+	str.charAt(6)
+	str.charCodeAt(16)
+	str.concat(" welcome")
+	str.endsWith("e")
+	str.includes("ld", 15)
+	str.indexOf(" ")
+	str.lastIndexOf("l", 8)
+	str.localeCompare("Hello")
+	str.replace("hello", "hi")
+	str.repeat(2)
+	str.slice(0, -1)
+	str.split("l")
+	str.startsWith("h")
+	str.substring(0, 100)
+	str.trim()
+	str.trimStart()
+	str.trimEnd()
+
+#Date :
+	var d = new Date()
+
+#Math :
+
+
+
+# ES6 features : 
 
 
 
