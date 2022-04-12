@@ -282,6 +282,42 @@ methods:
 # ES6 features : 
 
 
+#] BOM [Browser Object Model]:
+	it is platform used to intract with the browser, the default object of browser is Window
+	window object it is collection of many objects like (documnet, screen, navigater, history, location)
+	using the properties and methods of window object we can interact with browser
+
+	methods of window object:
+		alert(), prompt(), confirm(), open(), close(), setTimeout(), setTimeIntervel()
+	
+	properties:
+		innerHeight, innerWidth, outerHeight, outerWidth
+objects of window;
+#document:
+
+#] history object:
+	
+	methods of history object:
+		back(),  forword(), go()
+	properties:
+		length //returns the length of history stored
+
+#] screen object:
+	properties:
+		width, height, availWidth, availheight, ...
+
+#]location object
+	properties:
+		hash, host, hostName, href, protocol
+
+
+#] dom:
+	it is a platform/medium/interface consists of methods and properties, through which we can access and modify the html structure 
+
+#]events:
+	click,dblclick, mouseover, mouseout, resize...
+	
+
 
 
 

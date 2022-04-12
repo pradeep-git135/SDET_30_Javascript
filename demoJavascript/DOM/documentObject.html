@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>DocumentObject</title>
+</head>
+<body>
+
+    <h1 id="js" class="javascript">javascript</h1>
+    <h1 id="wjs" class="javascript">WebdriverJS</h1>
+    <h1 id="wio" class="javascript">WebdriverIO</h1>
+    <button id="b1" onclick=displayPrompt()>click</button>
+
+    <script>
+        let button1 = document.getElementById("b1")
+        function displayPrompt() {
+            prompt("do you clicked the button")
+        }
+
+        // button1.addEventListener("click",()=>{
+        //     alert("you clikcked the button")
+        // })
+
+        button1.addEventListener("dblclick",()=>{
+            alert("you dblclikcked the button")
+        })
+
+        // button1.addEventListener("mouseover",()=>{
+        //     alert("you Overed the button")
+        // })
+        button1.addEventListener("mouseout",()=>{
+            alert("you Overed the button")
+        })
+
+
+        let js = document.getElementById("js")
+        js.textContent = "JAVASCRIPT"
+
+        // let wio = document.getElementById("wjs")
+        // document.get
+        // // console.log(wio)
+        // wio.style.color = "red"
+        // wio.innerText = "WIO"
+
+        // let elementArray = document.getElementsByClassName("javascript")
+        // console.log(elementArray);
+
+       let link =  document.createElement("a")
+       link.href = "https://youtube.com"
+       link.textContent = "youtube"
+       link.style.fontSize = "50px"
+       link.style.textDecoration = "none"
+       link.style.color = "red"
+
+    //    document.body.appendChild(link)
+
+    let wjs = document.getElementById("wjs")
+
+    document.body.insertBefore(link,wjs)
+
+    let wio = document.querySelector("#wio")
+    wio.style.color = "green"
+    console.log(wio.getAttribute("id"));
+
+    let elements = document.querySelectorAll(".javascript")
+    console.log("=-============================");
+    console.log(elements);
+
+    document.body.removeChild(js)
+    </script>
+    
+</body>
+</html>

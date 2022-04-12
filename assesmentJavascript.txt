@@ -1,0 +1,23 @@
+1] difference between for, for_of, for_in, forEach
+2] difference between ==,  ===
+3] different ways of creating a function  with e.g
+4] diffrent ways of creating an object with e.g
+5] inbuilt methods with e.g
+6] what is this keyword and explain briefly with e.g
+7] what is inheritence, explain inheritence in javascript
+8] what is proyotype keyword explain with an e.g
+9] what is Prototype object in javascript
+10] expalin all the es6 features with e.g
+11] what do you know about predefined objects
+12] difference between foreach, map, filter
+13] explain reduce method with an e.g
+14] explain any five string inbuilt methods with an e.g
+15] explain oops concept in javascript[]
+16] explain array inbuilt methods with an example
+17] write a note on class in javascript
+18] i/p [{fname: "abc", adress:"India"},{fname: "def", adress:"USA"},{fname: "ghi", adress:"Russia"}
+		,{fname: "jkl", adress:"Europe"}, {fname: "mno", adress:"India"}]
+	o/p total number of indian resident
+	o/p {countryName : count}
+19] explain programm execution in memory
+20] explain function execution in memory
